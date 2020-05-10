@@ -1,0 +1,65 @@
+.row {
+	margin-left : 0px ;
+	margin-right : 0px ;
+	margin-top : 10px ;
+	margin-bottom : 10px ;
+	padding: 0px ;
+	width: 100% ; 
+}
+
+/*----Page Home----*/
+.title{justify-content: left ;}
+
+.logo
+{
+	width: 100px ;
+	height: 100px ;
+	background-color: pink ;
+}
+
+.logoPlayer
+{
+	width: 100px ;
+	height: 100px ;
+	background-color: green ;
+}
+
+.logoPlayerGame
+{
+	width: 50px ;
+	height: 50px;
+	background-color: green ;
+}
+
+.namePlayer, .linkPlayer{height: 50%; justify-content: right; margin : 0px;}
+
+.titleCategory{
+	margin-left: 20px ;
+}
+
+.card{
+	border : none ;
+}
+
+.vignette{
+	background-color : blue ;
+	height: 200px ;
+	display: flex ;
+	align-items: end ;
+	padding : 15px;
+	color: white ;
+}
+
+.detail{padding: 0px;}
+
+.score{display: flex ; justify-content: right ;}
+
+.playButton{display: flex ;}
+
+/*----Page Jeu----*/
+#gameBoard {}
+
+/*----Tools----*/
+.inCenterAll {display: flex ; align-items: center; justify-content: center;}
+
+.vertCenter {display: flex; align-items: center;}
