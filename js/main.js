@@ -15,7 +15,7 @@ window.onload = function()
 function initListGame() {
 	LISTGAME = [] ;
 
-	LISTGAME[LISTGAME.length] = new Game("Spider", "Spider Solitaire", null, "Card", "desc_spider", "desc_easy", "desc_med", "desc_hard") ;
+	LISTGAME[LISTGAME.length] = new Game("Spider", "Spider Solitaire", null, "Card", "Spider est un jeu de cartes de type réussite.", "1 couleur", "desc_med", "desc_hard") ;
 }
 
 function setHomeHtml() {
